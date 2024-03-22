@@ -1,0 +1,45 @@
+Solutions of Assignment-1(Basics)
+
+
+1.To output "Physics" and "Wallah" in two different lines in c++ we use Escape Sequence i.e endl or \n .
+
+2.
+//Program to print 10 using two positive numbers less than 6
+#include<iostream>
+using namespace std;
+int main(){
+    int a = 5;
+    int b = 5;
+    cout<<a+b;
+    return 0;
+}
+
+3.Space occupied by
+  int = 4byte
+  bool = 1byte
+  float = 4byte
+
+4.Output of the following program :
+int main() {
+int a = 4;
+int b = 5;
+a++, b--;
+cout << ++a << " " << b--;
+}
+OUTPUT:
+6 4
+
+5.//Program to find circumference of a circle
+#include<iostream>
+using namespace std;
+int main(){
+    int radius = 10;
+    float circ;
+    circ = 2*(22.0/7)*radius;
+    cout<<"Circumference = "<<circ;
+    return 0;
+}
+
+6.Valid variable Names :
+  _FLOAT
+  FLOAT
