@@ -2,6 +2,14 @@ Solutions of Assignment-1(Basics)
 
 
 1.To output "Physics" and "Wallah" in two different lines in c++ we use Escape Sequence i.e endl or \n .
+Program:
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"Physics"<<endl;
+    cout<<"Wallah"<<endl;
+    return 0;
+}
 
 2.
 //Program to print 10 using two positive numbers less than 6
